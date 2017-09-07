@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    background: #D9D2D2;
+}
+header{
+    border:1px solid gainsboro;
+    background: #3E3B3B;
+    position: relative;
+}
+h1{
+    color: red;
+    margin: 10px;
+}
+nav ul li{
+   float: left;
+    padding: 0px;
+    margin-left: 25px;
+}
+nav{
+    position: absolute;
+    top: 10%;
+    right: 10px;
+}
+li a{
+   color:white;
+    text-decoration: none;
+}
+main{
+    margin: 20px;
+}
+article,aside{
+    border-top: 1px solid #D9D2D2;
+    border-left: 1px solid #D9D2D2;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background: white;
+    margin: 25px 10px;
+    padding: 10px 20px;
+}
+aside{
+    margin: 30px;
+}
+p{
+    text-indent: 2em;
+    line-height: 2em;
+}
+article ul{
+    list-style: none;
+}
+article dd{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid gray;
+    display: inline-block;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table td{
+    border: 1px solid #D9D2D2; 
+}
+table thead{
+    background: black;
+}
+table tfoot{
+    background:#D9D2D2;
+}
+table thead td{
+    color: white;
+}
+form{
+    display: table;
+    margin: 0px auto;/*居中*/
+}
+div.tableRow{
+    display: table-row;
+}
+div.tableRow p{
+	display: table-cell;
+	vertical-align: top;
+	padding: 1px;
+}
+div.tableRow p:first-child{
+	text-align: right;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    background: black;
+}

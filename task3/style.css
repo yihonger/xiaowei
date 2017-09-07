@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 20px;
+}
+div{
+    background: #eee;
+    border: 1px solid #999;
+    display: inline-block;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+}
+aside>img{
+    margin-top: 20px;
+}
+aside{
+    border: 1px solid #999;
+    text-align: center;
+    background: white;
+}
+.team{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    position: relative;
+    text-align: left;
+}
+.team figure figcaption{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.member{
+    width: 120px;
+    padding-bottom: 20px;
+    width: 120px;
+    float: right;
+    margin: 20px;
+}
+main{
+   /* float: left;*/
+    margin: 20px 160px 0px 240px; 
+}
+article{
+    border: 1px solid #999;
+    background:white;
+    padding: 20px;
+}
+p{
+    text-indent: 2em;
+}
